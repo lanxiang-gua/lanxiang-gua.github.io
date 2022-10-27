@@ -61,7 +61,7 @@ gittalk:
   # Note: A GitHub Application is needed for authorization, if you don't have one, going to https://github.com/settings/applications/new register a new one.
   # You must specify the website domain url in the Authorization callback URL field.
   clientID: 76cea09722b6daedf457 # 改成你的 GitHub Application Client ID
-  clientSecret: 43be93308cf8ff9f45c7ea6574720477c2c1bb71  # 改成你的 GitHub Application Client Secret,
+  clientSecret: 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  # 改成你的 GitHub Application Client Secret,
   repository: lanxiang-gua.github.io  # 改成你的 Storage gittalk's repository
   owner: lanxiang-gua # 改成你的 GitHub repo owner,
   admin: lanxiang-gua  # 改成你的 GitHub repo owner and collaborators, only these guys can initialize github issues eg. 'colynn,daattali'
