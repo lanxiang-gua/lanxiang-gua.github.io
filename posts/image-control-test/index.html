@@ -3,7 +3,7 @@
 <head><script src="//livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Categories | A Low-Noise Observation</title>
+<title>Image Positioning Guide | A Low-Noise Observation</title>
 
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -271,9 +271,75 @@ You can find my work on <a href="https://github.com">GitHub</a> and connect with
     
     <main class="content-main">
       
-  <h1>Categories</h1>
-  
-  
+<div class="post-content">
+    <h1>Image Positioning Guide</h1>
+
+    
+    
+    <time datetime="2025-01-15T10:00:00&#43;00:00">January 15, 2025</time>
+
+    <h1 id="image-control-system-test">Image Control System Test</h1>
+<p>This document demonstrates the new image control system that allows you to specify image width and position using extended markdown syntax.</p>
+<h2 id="syntax">Syntax</h2>
+<p>The syntax is: <code>![alt text](image_path)[width, position]</code></p>
+<ul>
+<li><strong>alt text</strong>: Alternative text for the image. Will be displayed as the caption. $KaTeX$ is NOT supported.</li>
+<li><strong>width</strong>: Percentage of maximum width (10-100), default is 100</li>
+<li><strong>position</strong>: left, center, or right, default is center</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<h3 id="default-100-width-center-position">Default (100% width, center position)</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="Default Image $x^2$."></p>
+<p>This image uses default settings.</p>
+<h3 id="50-width-center-position">50% width, center position</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="50% Center">[50, center]</p>
+<p>This image is 50% width and centered.</p>
+<h3 id="30-width-left-position">30% width, left position</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="30% Left">[30, left]</p>
+<p>This image is 30% width and aligned to the left.</p>
+<h3 id="40-width-right-position">40% width, right position</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="40% Right">[40, right]</p>
+<p>This image is 40% width and aligned to the right.</p>
+<h3 id="width-only-default-center">Width only (default center)</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="70% Width">[70]</p>
+<p>This image is 70% width with default center alignment.</p>
+<h3 id="position-only-default-100-width">Position only (default 100% width)</h3>
+<p><img src="posts/image-control-test/vampire.png" alt="Left Aligned">[left]</p>
+<p>This image uses default 100% width but is left-aligned.</p>
+<h3 id="various-width-examples">Various width examples</h3>
+<h4 id="25-width-center">25% width, center</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="25% Center">[25, center]</p>
+<h4 id="60-width-center">60% width, center</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="60% Center">[60, center]</p>
+<h4 id="80-width-center">80% width, center</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="80% Center">[80, center]</p>
+<h3 id="mixed-alignments">Mixed alignments</h3>
+<h4 id="small-image-left-aligned">Small image, left aligned</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="Small Left">[25, left]</p>
+<h4 id="medium-image-right-aligned">Medium image, right aligned</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="Medium Right">[50, right]</p>
+<h4 id="large-image-center-aligned">Large image, center aligned</h4>
+<p><img src="posts/image-control-test/zombie.png" alt="Large Center">[75, center]</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Responsive</strong>: On mobile devices, all images become 100% width and center-aligned</li>
+<li><strong>Hover effects</strong>: Images have subtle hover animations</li>
+<li><strong>Consistent styling</strong>: All images maintain consistent border radius and shadows</li>
+<li><strong>Flexible syntax</strong>: You can specify just width, just position, or both</li>
+<li><strong>Default values</strong>: Sensible defaults when parameters are omitted</li>
+</ul>
+<h2 id="technical-details">Technical Details</h2>
+<p>The system works by:</p>
+<ol>
+<li><strong>JavaScript parsing</strong>: A script scans for image elements and looks for control syntax</li>
+<li><strong>CSS classes</strong>: Applies appropriate width and position classes</li>
+<li><strong>Container wrapping</strong>: Wraps images in containers for better control</li>
+<li><strong>Responsive behavior</strong>: Uses CSS media queries for mobile optimization</li>
+</ol>
+
+    
+
+</div>
 
     </main>
     
