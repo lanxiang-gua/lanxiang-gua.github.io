@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1305/posts/test1/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/test1/</loc>
     <lastmod>2026-01-26T20:42:58+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/posts/multi-column-test/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/multi-column-test/</loc>
     <lastmod>2025-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/posts/image-control-test/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/image-control-test/</loc>
     <lastmod>2025-01-15T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/posts/code-test/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/code-test/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/posts/math-test/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/math-test/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/</loc>
+    <loc>https://lanxiang-gua.github.io/</loc>
     <lastmod>2024-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/posts/</loc>
+    <loc>https://lanxiang-gua.github.io/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1305/categories/</loc>
+    <loc>https://lanxiang-gua.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1305/tags/</loc>
+    <loc>https://lanxiang-gua.github.io/tags/</loc>
   </url>
 </urlset>
